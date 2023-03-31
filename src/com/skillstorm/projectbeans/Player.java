@@ -47,37 +47,32 @@ public class Player {
 	if (characterType.equalsIgnoreCase("A")) {
 		System.out.println("The innovator: You’re a risk taker, you love creating combinations that others might not think about,  "
 				+ "\nwhich is why your bakery always has a line out of the door. That bold creativity usually plays in your favor.…."
-				+ "\nbut not always, you are also prone to creating cookie combos that shall never be spoken of…"
-				+ "\nCreativeness = 10"
-				+ "\nBaking Skills = 8"
-				+ "\nOverall Cookie Taste = 7");
+				+ "\nbut not always, you are also prone to creating cookie combos that shall never be spoken of…");
+		
 		playerType = "Innovator";
 		creativeness = 10;
 		bakingSkill = 8;
 		overallCookieTaste = 7;
+		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cooking Taste: " + overallCookieTaste);
 		
 	} else if (characterType.equalsIgnoreCase("B")) {
 		System.out.println("The classic: You like to play it safe. People flock towards your bakery because you follow the golden rule of "
-				+ "\n“if it's not broken, dont fix it”. You weigh each ingredient out and refuse to falter from your tried and true recipes."
-		+ "\nCreativeness = 1"
-		+ "\nBaking Skills = 9"
-		+ "\nOverall Cookie Taste = 8");
+				+ "\n“if it's not broken, dont fix it”. You weigh each ingredient out and refuse to falter from your tried and true recipes.");
 		playerType = "Classic";
 		creativeness = 1;
 		bakingSkill = 9;
 		overallCookieTaste = 8;
+		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cooking Taste: " + overallCookieTaste);
 	} else {
 		System.out.println("The ancestral baker: You take pride in your family's long history with cookie baking, you fell in love with "
 				+ "\nbaking cookies after learning from a young age. Your great aunt Linda was a pro and you hope to continue her love for "
 				+ "\ncookies for generations to come. That passion is what your customers love when coming to your bakery, they feel the love "
-				+ "\nand passion you have for cookies."
-				+ "\nCreativeness = 5"
-				+ "\nBaking Skills = 7"
-				+ "\nOverall Cookie Taste = 8");
+				+ "\nand passion you have for cookies.");
 		playerType = "Ancestral";
 		creativeness = 5;
 		bakingSkill = 7;
 		overallCookieTaste = 8;
+		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cooking Taste: " + overallCookieTaste);
 	}  
 		
 }
