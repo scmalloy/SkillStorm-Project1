@@ -53,7 +53,7 @@ public class Player {
 		creativeness = 10;
 		bakingSkill = 8;
 		overallCookieTaste = 7;
-		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cooking Taste: " + overallCookieTaste);
+		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cookie Taste: " + overallCookieTaste);
 		
 	} else if (characterType.equalsIgnoreCase("B")) {
 		System.out.println("The classic: You like to play it safe. People flock towards your bakery because you follow the golden rule of "
@@ -62,7 +62,7 @@ public class Player {
 		creativeness = 1;
 		bakingSkill = 9;
 		overallCookieTaste = 8;
-		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cooking Taste: " + overallCookieTaste);
+		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cookie Taste: " + overallCookieTaste);
 	} else {
 		System.out.println("The ancestral baker: You take pride in your family's long history with cookie baking, you fell in love with "
 				+ "\nbaking cookies after learning from a young age. Your great aunt Linda was a pro and you hope to continue her love for "
@@ -72,7 +72,7 @@ public class Player {
 		creativeness = 5;
 		bakingSkill = 7;
 		overallCookieTaste = 8;
-		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cooking Taste: " + overallCookieTaste);
+		System.out.println("\nCreativeness: " + creativeness + "\nBaking Skills: " + bakingSkill + "\nOverall Cookie Taste: " + overallCookieTaste);
 	}  
 		
 }
