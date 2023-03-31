@@ -1,6 +1,5 @@
 package com.skillstorm.projectgeneral;
 
-import java.util.Random;
 import java.util.Scanner;
 
 import com.skillstorm.projectbeans.Player;
